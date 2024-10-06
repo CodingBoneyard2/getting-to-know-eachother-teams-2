@@ -1,0 +1,147 @@
+/* GOOGLE FONT */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Raleway:wght@200;300&display=swap');
+:root {
+    --Poppins-font: "Poppins", cursive;
+}
+body {
+    background-color: #FDFFFC;
+    color: #1D1D1D;
+    margin: 0;
+    padding: 0;
+    font-family: var(--Poppins-font);
+}
+/* DO NOT modify the classes above */
+
+
+
+/* Hero Section */
+.banner {
+    background-color: #080808;
+    margin: auto;
+    max-height: 800px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 500px;
+    opacity: 0.5;
+}
+
+
+
+.intro-back {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.intro {
+    max-width: 1144px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    flex-direction: column;
+}
+
+
+
+
+/* Codeboneyard2 Works */
+.works-back {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.works {
+    max-width: 1144px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    flex-direction: column;
+}
+.works-title {
+    font-size:xx-large;
+}
+.works-span {
+    font-weight: bolder;
+}
+
+
+
+/* Individual Portfolio */
+.portfolio-back {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.portfolio {
+    max-width: 1144px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    flex-direction: column;
+}
+.portfolio-span {
+    font-weight: bolder;
+}
+.portfolio-title {
+    font-size:xx-large;
+    margin-bottom: 80px;
+}
+.portfolio-members {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+}
+.portfolio-card {
+    color: #FDFFFC;
+    background-color: #6b2d2d;
+    border-radius: 15px;
+    width: 265px;
+    max-height: 400px;
+    text-decoration: none;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+        0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+.portfolio-card img {
+    max-width: 265px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    object-fit: cover;
+}
+.portfolio-card p {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.porttfolio-quote {
+    font-size: small;
+}
+.portfolio-card:hover {
+    background-color: #562525;
+    transform: transform ease-in-out;
+    transition-duration: 200ms;
+    transform: scale(1.05);
+}
+.portfolio-name {
+    font-weight: bold;
+    font-size: large;
+}
+
+
+
+/* Footer */
+.footer-back {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #6b2d2d;
+    color: #FDFFFC;
+}
+.footer {
+    padding: 5px 0 5px 0;
+    font-size: small;
+}

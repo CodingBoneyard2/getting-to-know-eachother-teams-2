@@ -1,4 +1,4 @@
-# CodingBoneyard2
+# CodingBoneyard
 # Software Engineering
 
 # Getting To Know Eachother Teams
